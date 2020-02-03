@@ -59,5 +59,5 @@ Alternatively, if you know how to navigate the file structure in the terminal, y
 
 ##### TIP!
 
-Once you start typing the folder name, you can hit `[tab]` to autocomplete the name. If there is more than one, it will present you with selectabel options.
+Once you start typing the folder name, you can hit `[tab]` to autocomplete the name. If there is more than one, it will present you with selectable options.
 
