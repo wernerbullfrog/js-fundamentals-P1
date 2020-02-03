@@ -96,28 +96,6 @@ Numbers are exactly what you would expect them to be: numeric values.
 
 ---
 
-
-# Exercise
-
-Group the following items together according to their type:
-
-`5`, `true`, `null`, `{name: 'bob', age: 23}`, `NaN`, `23`,
-
-`'hello'`, `0`, `['mouse', 'cat', 'dog']`, `'cat'`, `false`,
-
-`null`, `7` `'42'`, `{product: 'cake', price: '50$'}`,
-
-`undefined`,` ['coconut', 24, 'banana']`, `-99`
-
-```js
-// Type 1: elem1, elem2, ...
-// Type 2: elem3, elem4, ...
-// ...
-
-```
-
----
-
 ## Arithmetic
 
 - Basic operators: +, -, *, /
@@ -332,6 +310,27 @@ This object has 3 properties.
 ```js
 // Example
 "it has a property with name 'givenName' and value of 'Yoda' of type string"
+
+```
+
+---
+
+# Exercise
+
+Group the following items together according to their type:
+
+`5`, `true`, `null`, `{name: 'bob', age: 23}`, `NaN`, `23`,
+
+`'hello'`, `0`, `['mouse', 'cat', 'dog']`, `'cat'`, `false`,
+
+`null`, `7` `'42'`, `{product: 'cake', price: '50$'}`,
+
+`undefined`,` ['coconut', 24, 'banana']`, `-99`
+
+```js
+// Type 1: elem1, elem2, ...
+// Type 2: elem3, elem4, ...
+// ...
 
 ```
 
