@@ -5,9 +5,11 @@
 // -------------------------------------------------------------
 
 // Q7
-// Write a program that uses console.log to print all the numbers from 1 to 100, with two exceptions.
-// For numbers divisible by 3, print "Fizz" instead of the number,
-// and for numbers divisible by 5 (and not 3), print "Buzz" instead.
+// Write a program that goes through every number between 1 and 100, and follows the following rules:
+//   - If the number is divisible by 3 (eg. 6), print "Fizz"
+//   - If the number is divisible by 5 (eg. 10), print "Buzz"
+//   - If the number is divisible by 3 AND 5 (eg. 15), print "FizzBuzz"
+//   - For all other numbers, print the number itself.
 
 // e.g.
 //
@@ -21,4 +23,10 @@
 // 8
 // Fizz
 // Buzz
+// 11
+// Fizz
+// 13
+// 14
+// FizzBuzz
+// 16
 // ...

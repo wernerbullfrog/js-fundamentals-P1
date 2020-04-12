@@ -11,7 +11,7 @@ You can toggle the terminal window in VS Code with the following keyboard shortc
 - `[ctrl + j]` on Windows
 - `[cmd + j]` on Mac
 
-This will open an instance of the terminal (Mac) or the PowerShell (Win). 
+This will open an instance of the terminal (Mac) or the PowerShell (Win).
 
 There are 2 ways to evaluate your JS using Node:
 
@@ -39,7 +39,7 @@ The _easiest_ way to do this is to type `node`, hit [space] and then drag the fi
 
 Alternatively, if you know how to navigate the file structure in the terminal, you open the folder tha contains the exercise and you type `node <FILE_NAME>`.
 
-#### NAvigating folders in the terminal...
+#### Navigating folders in the terminal...
 
 ##### Mac / Linux
 
@@ -60,4 +60,3 @@ Alternatively, if you know how to navigate the file structure in the terminal, y
 ##### TIP!
 
 Once you start typing the folder name, you can hit `[tab]` to autocomplete the name. If there is more than one, it will present you with selectable options.
-
