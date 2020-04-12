@@ -41,17 +41,7 @@ Alternatively, if you know how to navigate the file structure in the terminal, y
 
 #### Navigating folders in the terminal...
 
-##### Mac / Linux
-
-- Type `ls -la` to see the contents of the folder you are currently in.
-- Type `cd <FOLDER NAME>` to go into that folder.
-- Repeat the process until you reach the folder you are looking for.
-
-- Type `cd ..` to go back up a level
-
-##### Windows
-
-- Type `dir` to see the contents of the folder you are currently in.
+- Type `ls` to see the contents of the folder you are currently in.
 - Type `cd <FOLDER NAME>` to go into that folder.
 - Repeat the process until you reach the folder you are looking for.
 
