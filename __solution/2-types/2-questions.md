@@ -33,7 +33,7 @@ _other answers possible_
 
 ## Question 4: Which of the following expressions is/are truthy?
 
-1. ( ) !0
+1. (x) !0
 2. ( ) !1
 3. (x) -1
 4. ( ) !"hello!"
