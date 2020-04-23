@@ -12,24 +12,23 @@
 // Eat at 7h, 13h and 18h
 // The rest of the time is spent training.
 
-// The output should look something like 
+// The output should look something like
 // It's 11h. Time to train!
 // It's 12h. Time to train!
 // It's 13h. Time to eat!
 
 for (let hour = 0; hour < 24; hour++) {
-    let activity = 'train';
+  let activity = 'train';
 
-    if (hour < 6 || hour > 21) {
-        activity = 'sleep';
-    }
+  if (hour < 6 || hour > 21) {
+    activity = 'sleep';
+  }
 
-    if (hour === 7 || hour === 13 || hour === 18) {
-        activity = 'eat'
-    }
+  if (hour === 7 || hour === 13 || hour === 18) {
+    activity = 'eat';
+  }
 
-    console.log(`It's ${hour}h. Time to ${activity}`);
+  console.log(`It's ${hour}h. Time to ${activity}`);
 }
-
 
 // many other possibilities here.

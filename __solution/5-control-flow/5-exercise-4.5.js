@@ -14,15 +14,14 @@
 // 2 is even
 // ...
 
-for (let x = 0; x <16; x++) {
-    let type = 'odd';
+for (let x = 0; x < 16; x++) {
+  let type = 'odd';
 
-    if (x % 2 === 0) {
-        type = 'even';
-    }
+  if (x % 2 === 0) {
+    type = 'even';
+  }
 
-    console.log(`${x} is ${type}`);
+  console.log(`${x} is ${type}`);
 }
-
 
 // many other possibilities here.

@@ -24,20 +24,20 @@
 // ...
 
 // for verification purposes, I've added in the number that is replaced by either 'Fizz' or 'Buzz' in brckets after the word.
-for (let number = 1; number <=100; number++) {
-    // define a new variable and assign it the value of the current number
-    let printNum = number;
+for (let number = 1; number <= 100; number++) {
+  // define a new variable and assign it the value of the current number
+  let printNum = number;
 
-    // If the number is divisible by 5, replace with 'Buzz'
-    if (number % 5 === 0) {
-        printNum = `Buzz (${number})`;
-    }
+  // If the number is divisible by 5, replace with 'Buzz'
+  if (number % 5 === 0) {
+    printNum = `Buzz (${number})`;
+  }
 
-    // If the number is divisible by 3, replace with 'Fizz'
-    // this will also replace any Buzz value.
-    if (number % 3 === 0) {
-        printNum = `Fizz (${number})`;
-    }
+  // If the number is divisible by 3, replace with 'Fizz'
+  // this will also replace any Buzz value.
+  if (number % 3 === 0) {
+    printNum = `Fizz (${number})`;
+  }
 
-    console.log(printNum);
+  console.log(printNum);
 }
