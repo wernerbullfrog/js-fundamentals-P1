@@ -4,7 +4,7 @@
 // note: need to have covered control flow for these exercises
 // -------------------------------------------------------------
 
-// Q1
+// Q3
 // Fix this program
 
 // It is supposed to print to the console the numbers 1, 2, 3, 4, 5.

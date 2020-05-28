@@ -4,7 +4,7 @@
 // note: need to have covered control flow for these exercises
 // -------------------------------------------------------------
 
-// Q3
+// Q5
 // Fix this program
 // It should output all of the odd numbers between 1 and 25 (including 1 and 25)
 
