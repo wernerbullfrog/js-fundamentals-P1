@@ -10,9 +10,9 @@
  *
  * Why?
  *
- *                   13 +21 = 34
- *                8 +13 =21
- *             5 +8 =13
+ * 13 + 21 = 34
+ * 8 + 13 =21
+ * 5 + 8 =13
  *
  * See? Every number in the sequence is the result of adding the two numbers to
  * the left. The sequence starts with "0, 1", and every number beyond that
