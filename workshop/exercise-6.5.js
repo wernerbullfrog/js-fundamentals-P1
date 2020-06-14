@@ -1,9 +1,3 @@
-// -------------------------------------------------------------
-// Control Flow Exercises
-// ----------
-// note: need to have covered control flow for these exercises
-// -------------------------------------------------------------
-
 // Q6.5
 // Write a loop that will iterate from 0 to 15.
 // For each iteration, it should check whether a number is even or odd

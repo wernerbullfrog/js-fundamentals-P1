@@ -1,9 +1,3 @@
-// -------------------------------------------------------------
-// Control Flow Exercises
-// ----------
-// note: need to have covered control flow for these exercises
-// -------------------------------------------------------------
-
 // Q4
 // Fix this program
 // It should output the squares of all numbers between 0 and 12

@@ -1,9 +1,3 @@
-// -------------------------------------------------------------
-// Control Flow Exercises
-// ----------
-// note: need to have covered control flow for these exercises
-// -------------------------------------------------------------
-
 // Q3
 // Fix this program
 

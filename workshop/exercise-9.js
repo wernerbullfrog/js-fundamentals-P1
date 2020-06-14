@@ -1,9 +1,3 @@
-// -------------------------------------------------------------
-// Control Flow Exercises
-// ----------
-// note: need to have covered control flow for these exercises
-// -------------------------------------------------------------
-
 // Q9
 // Write a program that goes through every number between 1 and 100, and follows the following rules:
 //   - If the number is divisible by 3 (eg. 6), print "Fizz"

@@ -1,9 +1,3 @@
-// -------------------------------------------------------------
-// Control Flow Exercises
-// ----------
-// note: need to have covered control flow for these exercises
-// -------------------------------------------------------------
-
 // Q7
 // Write a loop that will output every hour of the day (0 to 23) and
 // determine whether it is time to sleep, eat or train.
