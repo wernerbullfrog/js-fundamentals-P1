@@ -1,2 +1,18 @@
-// Q6.3
-// Write a loop that will print to the console all of the EVEN integers from 1 to 100.
+function exercise6_3() {
+  // Exercise 6.3
+  //
+  // Write a loop that will print to the console
+  // all of the EVEN integers from 1 to 50.
+  //
+  // Write code between the lines (below)
+  // -----------------------------------------------------------------
+  // -----------------------------------------------------------------
+  // Write code between the lines (above)
+  //
+  //
+  //
+  //
+  //
+  //
+}
+module.exports = exercise6_3;

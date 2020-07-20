@@ -37,7 +37,7 @@ It should output the squares of all numbers between 0 and 12
 // 0, 1, 4, 9, 16, ...
 
 for (let number = 0; number < 12; number++) {
-  console.log('the square of ', number, ' is ', square);
+  console.log("the square of ", number, " is ", square);
 }
 ```
 
@@ -56,7 +56,7 @@ for (let number = 0; number < 25; number++) {
 
 ### Exercise 6
 
-This exercise contains 5 questios that all start with _Write a loop that ..._
+This exercise contains 5 questions that all start with _Write a loop that ..._
 
 ### Exercise 7
 
@@ -83,8 +83,6 @@ It's 13h. Time to eat!
 ### Exercise 8
 
 Write a program that will output the sum of all of the multiples of four between 0 and 5000
-
-The number you should see in the console is 3127500
 
 ### Exercise 9
 
@@ -166,6 +164,3 @@ the left. The sequence starts with "0, 1", and every number beyond that
 can be calculated by adding the previous 2 numbers.
 
 Write a program which calculates the 50th number in the fibonacci sequence
-
-(Correct answer: 12586269025)
-(The numbers get big quickly!)

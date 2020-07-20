@@ -1,5 +1,21 @@
-// Q8
-// Write a program that will output the sum of all of the multiples of four
-// between 0 and 5000
+function exercise8() {
+  // Exercise 8
+  //
+  // Write a program that will output the sum of all of the multiples of four
+  // between 0 and 5000
+  //
+  //
+  // Write code between the lines (below)
+  // -----------------------------------------------------------------
 
-// ANSWER: the number you should see in the console is 3127500
+  console.log(`The sum is ${sum}`);
+  // -----------------------------------------------------------------
+  // Write code between the lines (above)
+  //
+  //
+  //
+  //
+  //
+  //
+}
+module.exports = exercise8;
