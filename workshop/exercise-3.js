@@ -3,7 +3,7 @@ function exercise3() {
   // Fix this program
   //
   // Expected Output
-  // It is supposed to print to the console the numbers 1, 2, 3, 4, 5.
+  // It is should print to the console the numbers 1, 2, 3, 4, 5.
   //
   // Edit only the code between the lines (below)
   // -----------------------------------------------------------------
@@ -19,4 +19,8 @@ function exercise3() {
   //
   //
 }
+
+// Once you are done type the following in the terminal to test your answer(s).
+// yarn test exercise-3
+
 module.exports = exercise3;

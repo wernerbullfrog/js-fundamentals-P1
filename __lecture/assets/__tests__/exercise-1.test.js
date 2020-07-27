@@ -1,9 +1,4 @@
-const exercise1 = require("../workshop/exercise-1");
-
-beforeEach(() => {
-  jest.spyOn(console, "log").mockImplementation(() => {});
-  expect(console.log.mock.calls.length).toBe(0);
-});
+const exercise1 = require("../../../workshop/exercise-1");
 
 describe("Exercise 1 - Theory Questions", () => {
   test("Question 1", () => {

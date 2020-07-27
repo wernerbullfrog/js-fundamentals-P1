@@ -37,4 +37,8 @@ function exercise9() {
   //
   //
 }
+
+// Once you are done type the following in the terminal to test your answer(s).
+// yarn test exercise-9
+
 module.exports = exercise9;

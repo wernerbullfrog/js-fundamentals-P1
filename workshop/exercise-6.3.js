@@ -15,4 +15,8 @@ function exercise6_3() {
   //
   //
 }
+
+// Once you are done type the following in the terminal to test your answer(s).
+// yarn test exercise-6.3
+
 module.exports = exercise6_3;

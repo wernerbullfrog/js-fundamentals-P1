@@ -6,7 +6,9 @@ Before starting the workshop, please run the following in the terminal. It will 
 yarn install
 ```
 
-In order to more easily evaluate your answers, you will need a `node` environment. We could use the browser, as I did during the lecture, but it would be easier to manage if there was a way to do this in VS Code. There is! 🤯
+In order to more easily evaluate your answers, you will need a `node` environment. VS Code provides us with a terminal, and in the terminal we can evaluate js files with Node.
+
+It really **NOT** recommended that you use the browser console.
 
 You can toggle the terminal window in VS Code with the following keyboard shortcut:
 
@@ -14,8 +16,6 @@ You can toggle the terminal window in VS Code with the following keyboard shortc
 - `[cmd + j]` on Mac
 
 This will open an instance of the terminal (Mac) or the PowerShell (Win).
-
-There are 2 ways to evaluate your JS using Node:
 
 ## Type JS directly into the Node Env.
 
@@ -27,7 +27,7 @@ You can type JavaScript in the same way I did while using the web browser consol
 
 You can also copy/paste your code from your file into the node environment.
 
-## Exit the Node Environment
+### Exit the Node Environment
 
 To exit/quit Node and get back to the terminal, do `[ctrl + c]` twice.
 

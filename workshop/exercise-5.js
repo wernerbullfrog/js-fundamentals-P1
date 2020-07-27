@@ -22,4 +22,8 @@ function exercise5() {
   //
   //
 }
+
+// Once you are done type the following in the terminal to test your answer(s).
+// yarn test exercise-5
+
 module.exports = exercise5;

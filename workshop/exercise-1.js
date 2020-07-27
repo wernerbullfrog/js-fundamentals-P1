@@ -95,6 +95,9 @@ function question6() {
   console.log("6.4.");
 }
 
+// Once you are done type the following in the terminal to test your answer(s).
+// yarn test exercise-1
+
 module.exports = {
   question1,
   question2,
