@@ -66,6 +66,7 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+
 ```
 
 ## Question 3: Log all numbers from 10 to 5
@@ -79,6 +80,7 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+
 ```
 
 ## Question 4: Reverse the string to check for hidden messages
@@ -93,6 +95,7 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+
 ```
 
 ## Question 5: Add all the numbers from 10 to 0
@@ -107,6 +110,7 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+
 ```
 
 ## Question 6: Check if the array includes a specific number
@@ -123,4 +127,5 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+
 ```

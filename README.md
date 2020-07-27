@@ -6,73 +6,89 @@ Today we will be learning the fundamentals of JavaScript!
 
 Look at [SETUP.md](SETUP.md) for the instructions.
 
+## Testing
+
+This workshop can "test" your code and validate your answers. (We will talk more about this later.)
+
+If you want to test your code/validate your answer, you can type `yarn test <FILE_NAME>` in the terminal (without the `.js`).
+
+In this workshop, there will be a reminder to do this at the end of every exercise file.
+
 ## The Workshop
 
-Each question is a `JS` file, except for the first 2. The question, including guidelines and hints, are also located each exercise file. You don't need to retype the code from the exercises, it is already available in the JS files.
+Each question is a `JS` file, except for the `exercise-2.md`. The question, including guidelines and hints, are also located each exercise file.
+
+These first exercises are heavily commented. In order to implement unit tests and allow you to verify your own code, each file contains extra lines of code that are _not_ related to the actual exercise. _These lines should not be modified at all._
+
+---
 
 ### Exercise 1
 
-_This is a series of theory questions for you to answer. Open [exercise-1.md](workshop/exercise-1.md) and answer in the file._
+_This is a series of theory questions for you to answer. - Open [exercise-1.js](workshop/exercise-1.js) and answer in the file._
+
+Write your answer inside of the provided `console.log()`.
+
+```js
+// Example
+console.log("1.1. ( )"); /* "I am a "Horse""    */
+```
 
 ### Exercise 2
 
 _This a series of code jumble questions. Answer directly in the [exercise-2.md](workshop/exercise-2.md) file._
 
-### Exercise 3 - Fix this program
+There is no automated testing for this file.
 
-It is supposed to print to the console the numbers 1, 2, 3, 4, 5.
+---
+
+For exercises 3 to 13, you should only write the needed code to solve the exercise between the provided lines.
 
 ```js
-for (let number = 2; number < 5; number++) {
-  console.log(number);
-}
+// Write code between the lines (below)
+// -----------------------------------------------------------------
+// WRITE YOUR CODE HERE <--
+
+// -----------------------------------------------------------------
+// Write code between the lines (above)
 ```
+
+---
+
+### Exercise 3 - Fix this program
+
+It is should print to the console the numbers 1, 2, 3, 4, 5.
+
+- Open [exercise-3.js](workshop/exercise-3.js) file.
 
 ### Exercise 4 - Fix this program
 
 It should output the squares of all numbers between 0 and 12
 
-```js
-// eg:
-// 0, 1, 4, 9, 16, ...
-
-for (let number = 0; number < 12; number++) {
-  console.log('the square of ', number, ' is ', square);
-}
-```
+Open [exercise-4.js](workshop/exercise-4.js) file.
 
 ### Exercise 5 - Fix this program
 
 It should output all of the odd numbers between 1 and 25 (including 1 and 25).
 
-```js
-for (let number = 0; number < 25; number++) {
-  if (number % 2) {
-    console.log(number);
-  }
-  console.log(number);
-}
-```
+Open [exercise-5.js](workshop/exercise-5.js) file.
 
 ### Exercise 6
 
-This exercise contains 5 questios that all start with _Write a loop that ..._
+This exercise contains 5 questions (6.1 to 6.5) that all start with _Write a loop that ..._
+
+- Open [exercise-6.1.js](workshop/exercise-6.1.js) file.
+- Open [exercise-6.2.js](workshop/exercise-6.2.js) file.
+- Open [exercise-6.3.js](workshop/exercise-6.3.js) file.
+- Open [exercise-6.4.js](workshop/exercise-6.4.js) file.
+- Open [exercise-6.5.js](workshop/exercise-6.5.js) file.
 
 ### Exercise 7
 
-Write a loop that will output every hour of the day (0 to 23) and determine whether it is time to sleep, eat or train. Life in the army is regimented! These are the hours alloted to each activity.
+Life in the army is regimented!
 
-- Sleep between 22h and 5h
-- Eat at 7h, 13h and 18h
-- The rest of the time is spent training.
+Write a loop that will output every hour of the day (0 to 23) and determine whether it is time to sleep, eat or train.
 
-The output should look something like
-
-```
-It's 11h. Time to train!
-It's 12h. Time to train!
-It's 13h. Time to eat!
-```
+- Open [exercise-7.js](workshop/exercise-7.js) file.
 
 ---
 
@@ -84,16 +100,18 @@ It's 13h. Time to eat!
 
 Write a program that will output the sum of all of the multiples of four between 0 and 5000
 
-The number you should see in the console is 3127500
+- Open [exercise-8.js](workshop/exercise-8.js) file.
 
 ### Exercise 9
 
 Write a program that goes through every number between 1 and 100, and follows the following rules:
 
-- If the number is divisible by 3 (eg. 6), print "Fizz"
-- If the number is divisible by 5 (eg. 10), print "Buzz"
-- If the number is divisible by 3 AND 5 (eg. 15), print "FizzBuzz"
+- If the number is divisible by 3 (eg. 6), print "Fizz".
+- If the number is divisible by 5 (eg. 10), print "Buzz".
+- If the number is divisible by 3 AND 5 (eg. 15), print "FizzBuzz".
 - For all other numbers, print the number itself.
+
+- Open [exercise-9.js](workshop/exercise-9.js) file.
 
 ### Exercise 10
 
@@ -109,6 +127,8 @@ Write a loop that makes seven calls to console.log to output the following trian
 #######
 ```
 
+- Open [exercise-10.js](workshop/exercise-10.js) file.
+
 ---
 
 <center>🟢 - Complete workshop (100%) - 🟢</center>
@@ -117,55 +137,18 @@ Write a loop that makes seven calls to console.log to output the following trian
 
 ### Exercise 11 - Stretch
 
-Write a program that creates a string that represents an 8×8 grid, using newline characters to separate lines. At each position of the grid there is either an "\_" or a "#" character. The characters should form a chessboard.
+Write a program that creates a string that represents an 8×8 grid, using newline characters to separate lines.
 
-```
-#_#_#_#_
-_#_#_#_#
-#_#_#_#_
-_#_#_#_#
-#_#_#_#_
-_#_#_#_#
-#_#_#_#_
-_#_#_#_#
-```
+- Open [exercise-11.js](workshop/exercise-11.js) file.
 
 ### Exercise 12 - Stretch
 
 Write a program that generates a list of all prime numbers between 1 and 200.
 
-A prime number is a number that is ONLY divisible by 1 and itself.
-
-- 6 -> NOT prime (2 \* 3)
-- 7 -> PRIME (can only be divided by 1 and 7, no other numbers)
-- 12 -> NOT prime (3 _ 4, 2 _ 6)
-- 37 -> PRIME ()
-
-NOTE: 1 and 2 are both prime numbers.
-
-```
-EXPECTED OUTPUT: [1, 2, 3, 5, 7, 11, 13, ...]
-```
+- Open [exercise-12.js](workshop/exercise-12.js) file.
 
 ### Exercise 13 - Stretch
 
-The Fibonacci sequence is a sequence of numbers where every value is the sum of the previous 2 values.
+Write a program which calculates the 50th number in the fibonacci sequence.
 
-It looks like this:
-
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
-
-Why?
-
-13 + 21 = 34
-8 + 13 =21
-5 + 8 =13
-
-See? Every number in the sequence is the result of adding the two numbers to
-the left. The sequence starts with "0, 1", and every number beyond that
-can be calculated by adding the previous 2 numbers.
-
-Write a program which calculates the 50th number in the fibonacci sequence
-
-(Correct answer: 12586269025)
-(The numbers get big quickly!)
+- Open [exercise-13.js](workshop/exercise-13.js) file.
