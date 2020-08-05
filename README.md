@@ -6,6 +6,8 @@ Today we will be learning the fundamentals of JavaScript!
 
 Before starting the workshop, please run the following in the terminal. It will install all of the required dependencies. (More on that later.)
 
+Type `ctrl`+ `j` to open the terminal inside of VS Code.
+
 ```bash
 yarn install
 ```
