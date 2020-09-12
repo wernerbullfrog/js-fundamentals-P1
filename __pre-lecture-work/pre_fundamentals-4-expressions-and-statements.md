@@ -1,10 +1,21 @@
-# JavaScript Expressions vs Statements
-
----
+# Fundamentals: Expressions and Statements
 
 ## Expressions
 
 Expressions are the language equivalent to phrases.
+
+These are all expressions:
+
+- `5`
+- `'hi'`
+- `[1, 2, 3]`
+
+Expressions can contain expressions:
+
+- `5 * 2`
+- `I have a box full of poptarts—${2 * 4} poptarts!`
+- `1 > 2`
+- `1 < 2 && 3 < 4 || 5`
 
 ---
 
@@ -12,6 +23,10 @@ Expressions are the language equivalent to phrases.
 
 - The simplest statement is an expression with a `;` after it.
 - A statement expresses an action to be carried out.
+
+```js
+console.log('Hello!');
+```
 
 ---
 

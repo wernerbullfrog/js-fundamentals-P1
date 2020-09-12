@@ -1,45 +1,31 @@
-# JavaScript Types and Operators
+# JavaScript Types
 
 ---
 
 There are 6 basic types in JavaScript.
 
-- Strings
 - Booleans
-- Empty values
 - Numbers
+- Empty values
+- Strings
 - Arrays
 - Objects
+
+<!-- Prompt students for examples of each type. -->
 
 ```js
 // Examples
 ```
 
-If you are not sure of the type of a given value, you can use `typeof <VALUE>`
+---
+
+If ever you are not sure of the type of a given value, you can use `typeof <VALUE>`
 
 ---
 
-## Strings
+## Strings: Interpolation Example
 
-Strings represent text. They are written/defined by wrapping the text in quotes.
-
-- Double quotes: "Your path you must decide."
-- Single quotes: 'Luminous beings are we…not this crude matter.'
-- Backticks: \`Do. Or do not. There is no try.\`
-
-They are equally good... sort of.
-
----
-
-### Backticks \`\`
-
-- Strings wrapped in backticks have a super power called, interpolation.
-- Interpolation is a way of inserting JavaScript into your strings.
-- To interpolate a string you use this syntax \${}
-
----
-
-#### Interpolation Example
+<!-- Break down this example in class. -->
 
 ```js
 let pi = 3.14;
@@ -62,95 +48,57 @@ console.log(text);
 
 ---
 
-## Booleans
+<!-- Reiterate how to access values in an array. -->
 
-It is useful to have a value that distinguishes between only two possibilities, e.g. "yes" and "no" or "on" and "off".
+## Arrays: Accessing the values in an array
 
-Enter Booleans!
-
-They have just two values, `true` and `false`, which are written as those words.
-
----
-
-## Empty values
-
-There are two special values, written `null` and `undefined`, that are used to denote the absence of a meaningful value.
-
-They are themselves values, but they carry no information.
-
-> The difference in meaning between `undefined` and `null` is an accident of JavaScript’s design, and it doesn’t matter most of the time. In cases where you actually have to concern yourself with these values, I recommend treating them as mostly interchangeable. (Marijn Haverbeke, [Eloquent JavaScript](https://eloquentjavascript.net/01_values.html))
-
----
-
-## Numbers
-
-Numbers are exactly what you would expect them to be: numeric values.
-
-- They are numeric values.
-  - `19`
-- They can be fractional.
-  - `12.75`
-  - `2.998e8`
-- Calculations with integers will always be precise, but this is not quite true for fractional numbers.
-
----
-
-## Arithmetic
-
-- Basic operators: +, -, \*, /
-- Order of operations is applied... but when in doubt, add parentheses.
-- %: The remainder operator, often called "modulo". This operator returns the remainder of a division.
+⚠️⚠️ Indexing starts at 0 ⚠️⚠️
 
 ```js
-// Examples...
+let anArray = ["bacon", undefined, 900, true];
+```
+
+1. What is the value of `anArray[0]`?
+2. How do we access the value `900`?
+
+---
+
+<!-- Reiterate how to access values in an object. -->
+
+## Objects: Accessing values in objects
+
+Values in objects can be accessed with
+
+- dot notation
+- bracket notation
+
+```js
+// Example
+let person = { name: "Bob", age: 23 };
+const otherPerson = { name: "Joe", age: 31, height: "170cm" };
 ```
 
 ---
 
-### Comparison operators
-
-| Operator | Description              | Example   |
-| -------- | ------------------------ | --------- |
-| `>`      | greater than             | `2 > 1`   |
-| `<`      | less than                | `1 < 2`   |
-| `>=`     | greater than or equal to | `2 >= 1`  |
-| `<=`     | less than or equal to    | `1 <= 2`  |
-| `==`     | equal to (loose)         | `2 == 2`  |
-| `!=`     | not equal to (loose)     | `2 != 1`  |
-| `===`    | equal to (strict)        | `2 === 2` |
-| `!==`    | not equal to (strict)    | `2 !== 1` |
-
-All of the examples in the table above evaluate to _true_. So `2 > 1` (2 is greater than 1) is `true`, and `2 < 1` (2 is less than 1) is `false`.
+# JavaScript Operators
 
 ---
 
-### Logical operators
-
-Booleans can be combined to produce new boolean values.
-
-| Operator     | Description | Example                   |
-| ------------ | ----------- | ------------------------- |
-| &&           | AND         | _true && true_            |
-| &#124;&#124; | OR          | _true &#124;&#124; false_ |
-| !            | NOT         | _!false_                  |
-
-All of the examples in the table above evaluate to `true`.
-
----
-
-Boolean logic is its own thing, but here's a short intro:
-
-- _AND_ means that both sides must be true
-- _OR_ means that at least 1 side must be true
-- _NOT_ negates the value so that `true` becomes `false`, and `false` becomes `true`.
-
----
+- Arithmetic
+- Comparison operators
+- Logical operators
 
 Comparison operators and logical operators are usually combined in an expression to create a boolean value, like this `2 > 1 && -1 < 0` (2 is greater than 1 and -1 is less than 0), which is `true`.
 
 ---
 
-## Exercise
+# Exercises
+
+<!-- Go over _some_ of the answers to the exercises -->
+
+---
+
+## Exercise 1
 
 ```js
 // Look at these expressions below and determine whether they evaluate to true or false
@@ -167,118 +115,7 @@ Comparison operators and logical operators are usually combined in an expression
 
 ---
 
-## Exceptions, special cases and just plain annoying side-effects
-
-- `Infinity` and `-Infinity`
-- `NaN` stands for "Not a number" even though it is itself a value of type "number" 🤦‍♂️
-- `NaN` is not equivalent to anything – including another `NaN`!
-- Automatic type conversion 😲
-  - `8 * null`
-  - `"5" - 1`
-  - `"5" + 1`
-
-```js
-// Examples
-```
-
----
-
-## Truthy and Falsy
-
-As well as a type, each value also has an inherent boolean value, generally known as either _truthy_ or _falsy_.
-
-The following values are ALWAYS _falsy_:
-
-- `false`
-- `0` (zero)
-- '' or "" (empty string)
-- `null`
-- `undefined`
-- `NaN`
-
----
-
-EVERYTHING else is _truthy_. Everything else.
-
-- '0' (a string)
-- 'false' (the word false as a string)
-- `[]` (an empty array) _more on arrays in a bit_
-- `{}` (an empty object) _more on objects in a bit_
-- `function() {}` (an empty function) _more on functions in a bit_
-
-For more details, you can check out this [Sitepoint page](https://www.sitepoint.com/javascript-truthy-falsy/)
-
----
-
-## Arrays
-
-- An array contains multiple values, of pretty much any type.
-- Arrays are sequences of anything. Strings, numbers, booleans, arrays, other things we haven't learned about yet.
-- You can declare an array by using [ ] square brackets.
-- We separate the elements of an array with a comma.
-- Arrays are mutable.
-
-```js
-["bacon", undefined, 900, true];
-```
-
----
-
-### Accessing the values in an array
-
-We reference the element of an array by its position (index) in the array.
-
-⚠️⚠️ Indexing starts at 0 ⚠️⚠️
-
-```js
-// Example 1 - Given this array
-let anArrayOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-1. anArrayOfNumbers[0]
-2. anArrayOfNumbers[5]
-3. anArrayOfNumbers[9]
-4. anArrayOfNumbers[10]
-```
-
----
-
-⚠️⚠️ Indexing starts at 0 ⚠️⚠️
-
-```js
-// Example 2 - Given this array
-let anArrayOfNumbers = ['bacon', undefined, 900, true]
-
-1. How do we access the value 900?
-2. How do we access the value `true`?
-
-```
-
----
-
-Arrays can be nested in arrays. Arrays can contain arrays that contain arrays that contain arrays that... _you get the idea_
-
-⚠️⚠️ Indexing starts at 0 ⚠️⚠️
-
-```js
-// Example 3 - Given this array
-let table = [
-  [1,2,3,4,5,6],
-  [7,8,9,10,11,12],
-  [13,14,15,16,17,18],
-  [19,20,21,22,23,24],
-  [25,26,27,28,29,30],
-  [31,32,33,34,35,36]
-]
-
-1. table[0][0]
-2. table[5][5]
-3. table[2][3]
-4. How would we access the value 27?
-```
-
----
-
-## Exercise
+## Exercise 2
 
 Given this data structure:
 
@@ -292,97 +129,45 @@ let data = [0, [], [], [1, 2, 3, [4]]];
 
 ---
 
-## Objects
-
-Very broadly, an object can be defined as an unordered collection of key/value pairs.
-
-`{'givenName': 'Yoda', 'surname': undefined, 'age': 900}`
-
-This object has 3 properties.
-
-```js
-// Example
-"it has a property with name 'givenName' and value of 'Yoda' of type string";
-
-```
-
----
-
-### Group Exercise
-
-Group the following items together according to their type:
-
-`5`, `true`, `null`, `{name: 'bob', age: 23}`, `NaN`, `23`,
-
-`'hello'`, `0`, `['mouse', 'cat', 'dog']`, `'cat'`, `false`,
-
-`null`, `7`, `'42'`, `{product: 'cake', price: '50$'}`,
-
-`undefined`, `['coconut', 24, 'banana']`, `-99`
-
-```js
-// Type 1: elem1, elem2, ...
-// Type 2: elem3, elem4, ...
-// ...
-```
-
----
-
-### Group Exercise
+## Exercise 3
 
 - List the number of properties for each object.
-- For each property, indicate its name and its value.
-- For each property value, indicate the type.
+- For each property, indicate its key and its value.
+- For each property value, indicate its type.
 
 ```js
 { label: 'corn', price: 5.3 + '$' };
 { ISBN: 53532, isAvailable: true, author: 'Nakamoto' };
-
 ```
 
 ---
 
-### Accessing values in objects
-
-Values in objects can be accessed with
-
-- dot notation
-- bracket notation
-
-```js
-// Example
-let person = { name: "Bob", age: 23 };
-const otherPerson = { name: "Joe", age: 31, height: "170cm" };
-```
-
----
-
-### Exercise 1
+## Exercise 4
 
 ```js
 // Given
-let person = {name: 'Bob', age: 23};
-let name = 'John';
+let person = { name: "Bob", age: 23 };
+let name = "John";
+```
 
-// What is the value of the following expressions?
+What is the value of the following expressions?
+
 1. person.name
 2. person['name']
 3. person[name]
 
-```
-
 ---
 
-### Exercise 2
+## Exercise 5
 
 ```js
 // Given
-let person = {name: 'Bob', age: 23};
-let key = 'name';
+let person = { name: "Bob", age: 23 };
+let key = "name";
+```
 
-// What is the value of the following expressions:
+What is the value of the following expressions:
+
 1. person.key
 2. person['key']
 3. person[key]
-
-```

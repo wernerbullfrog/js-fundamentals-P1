@@ -2,7 +2,19 @@
 
 Today we will be learning the fundamentals of JavaScript!
 
-## Setup
+---
+
+## ✋ Pre-lecture work
+
+This workshop includes some reading and exercises that should be done prior to attending the lecture.
+
+Read all of the `.md` files in `__pre-lecture-work`. It covers the initial fundamental concepts that we will be starting with during the lecture.
+
+There are also some exercises that you should complete.
+
+---
+
+## Workshop Setup
 
 Before starting the workshop, please run the following in the terminal. It will install all of the required dependencies. (More on that later.)
 
