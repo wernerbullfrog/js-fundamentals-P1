@@ -65,16 +65,16 @@ function question5() {
   console.log("5.1. Number of elements ( )", ["type", "type", "type"]);
 
   // 5.2. [[], 24, 'hello', true]
-  console.log("5.2. Number of elements (4)", []);
+  console.log("5.2. Number of elements ( )", []);
 
   // 5.3. []
-  console.log("5.3. Number of elements (0)", []);
+  console.log("5.3. Number of elements ( )", []);
 
   // 5.4. [['romeo', 'juliet'], false]
-  console.log("5.4. Number of elements (2)", []);
+  console.log("5.4. Number of elements ( )", []);
 
   // 5.5. [{name: 'bob', age: 23}, {name: 'paul', age: 33}]
-  console.log("5.5. Number of elements (2)", []);
+  console.log("5.5. Number of elements ( )", []);
 }
 
 function question6() {
