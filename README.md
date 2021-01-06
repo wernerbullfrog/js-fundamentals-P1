@@ -12,6 +12,8 @@ Read all of the `.md` files in `__pre-lecture-work`. It covers the initial funda
 
 There are also some exercises that you should complete.
 
+> 💡 If you are in VS Code, you can right-click on any markdown file and select "Open Preview" to view a more "readable" version of it.
+
 ---
 
 ## Workshop Setup
@@ -67,7 +69,7 @@ In this workshop, there will be a reminder to do this at the end of every exerci
 
 ## The Workshop
 
-Each question is a `JS` file, except for the `exercise-2.md`. The question, including guidelines and hints, are also located each exercise file.
+Each question is a `JS` file, except for the `exercise-2.md`. The question, including guidelines and hints, is also located in each exercise file.
 
 These first exercises are heavily commented. In order to implement unit tests and allow you to verify your own code, each file contains extra lines of code that are _not_ related to the actual exercise. _These lines should not be modified at all._
 

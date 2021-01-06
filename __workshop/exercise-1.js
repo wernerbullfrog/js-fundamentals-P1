@@ -82,8 +82,12 @@ function question6() {
   // What is the type and value for each of the following variables?
   // e.g. console.log("6.1.", <TYPE>, <VALUE>)
 
+  // Example:
+  // 6.0 let example = "bacon";
+  // console.log("6.0", "string", "bacon");
+
   // 6.1. let name = 'bob';
-  console.log("6.1.", "type", "value");
+  console.log("6.1.");
 
   // 6.2. let age = 45;
   console.log("6.2.");
