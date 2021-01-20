@@ -9,6 +9,8 @@ There are 6 basic types in JavaScript.
 - Arrays
 - Objects
 
+---
+
 ## Booleans
 
 Boolean values are either `true` or `false`. (written as such without any quotation marks `"`)
@@ -53,7 +55,7 @@ Strings represent text. They are written/defined by wrapping the text in quotes.
 
 They are equally good... sort of.
 
-### Backticks \`\`
+### Backticks
 
 - Strings wrapped in backticks have a super power called, **interpolation**.
 - Interpolation is a way of inserting JavaScript into your strings.
@@ -75,7 +77,7 @@ let example = `A ${diameter}cm pizza has an area of ${
 }cm².`;
 
 // Concatenate the strings
-let text = introduction + ' ' + example;
+let text = introduction + " " + example;
 
 console.log(text);
 ```
@@ -91,7 +93,7 @@ console.log(text);
 - Arrays are mutable.
 
 ```js
-['bacon', undefined, 900, true];
+["bacon", undefined, 900, true];
 ```
 
 ---
@@ -114,19 +116,15 @@ let anArrayOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 ---
 
-⚠️⚠️ Indexing starts at 0 ⚠️⚠️
-
 ```js
 // Example 2 - Given this array
-let anArray = ['bacon', undefined, 900, true];
+let anArray = ["bacon", undefined, 900, true];
 ```
 
 1. How do we access the value `900`?
 2. How do we access the value `true`?
 
 Arrays can be nested in arrays. Arrays can contain arrays that contain arrays that contain arrays that... _you get the idea_
-
-⚠️⚠️ Indexing starts at 0 ⚠️⚠️
 
 ```js
 // Example 3 - Given this array
@@ -170,8 +168,8 @@ Values in objects can be accessed with
 
 ```js
 // Example
-let person = { name: 'Bob', age: 23 };
-const otherPerson = { name: 'Joe', age: 31, height: '170cm' };
+let person = { name: "Bob", age: 23 };
+const otherPerson = { name: "Joe", age: 31, height: "170cm" };
 ```
 
 - `person.name` is 'Bob'
@@ -216,6 +214,6 @@ For more details, you can check out this [Sitepoint page](https://www.sitepoint.
 ```js
 // Examples of type conversion
 8 * null; // equals 0
-'5' - 1; // equals 4
-'5' + 1; // equals 51
+"5" - 1; // equals 4
+"5" + 1; // equals 51
 ```
