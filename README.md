@@ -17,7 +17,6 @@ Today we will be learning the fundamentals of JavaScript!
 
 ## 🦉 Lecture
 
-- Google Slides: https://docs.google.com/presentation/d/1j2zvDj7WBWHYrvoOBaXhkz1HmuUSFmvHQwDV-CY5Yzk/edit?usp=sharing
 - PDF: [m2_d1.pdf](__1-lecture/m2_d1.pdf)
 
 ---
