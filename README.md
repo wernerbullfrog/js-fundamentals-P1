@@ -17,7 +17,7 @@ Today we will be learning the fundamentals of JavaScript!
 
 ## 🦉 Lecture
 
-- PDF: [m2_d1.pdf](__1-lecture/m2_d1.pdf)
+[m2_d1.pdf](__1-lecture/m2_d1.pdf)
 
 ---
 
