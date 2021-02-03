@@ -58,11 +58,11 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ## Question 2: Get the specified item in the nested array
 
-1. const firstIndex = 0;
+1. const first = 0;
 2. const array = [[1, [2, 3]]];
-3. console.log(array[firstIndex][secondindex][thirdIndex])
-4. const secondIndex = 1;
-5. const thirdIndex = = 0;
+3. console.log(array[first][second][third])
+4. const second = 1;
+5. const third = 0;
 
 ```
 // Your solution here!

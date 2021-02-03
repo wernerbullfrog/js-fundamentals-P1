@@ -38,7 +38,7 @@ describe("Exercise 1 - Theory Questions", () => {
 
   test("Question 4", () => {
     exercise1.question4();
-    expect(console.log.mock.calls[0][0]).toMatch("4.1. ( )");
+    expect(console.log.mock.calls[0][0]).toMatch("4.1. (x)");
     expect(console.log.mock.calls[1][0]).toMatch("4.2. ( )");
     expect(console.log.mock.calls[2][0]).toMatch("4.3. (x)");
     expect(console.log.mock.calls[3][0]).toMatch("4.4. (x)");
