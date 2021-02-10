@@ -9,5 +9,5 @@ jobs:
         uses: raulanatol/jest-coverage-comment-action@v1.0.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          jest-command: "npm run jest-ci"
-          working-directory: "packages/my-package"
+          jest-command: "yarn test"
+          working-directory: __2-workshop"
