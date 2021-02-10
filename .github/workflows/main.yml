@@ -27,6 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Testing your solutions
-        run: npm run test
+        run: npm i && npm run test
       - name: Publish Unit Test Results
         uses: EnricoMi/publish-unit-test-result-action@v1.8
