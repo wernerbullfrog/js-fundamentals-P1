@@ -35,28 +35,22 @@ In order to more easily evaluate your answers, you will need a `node` environmen
 
 It really **NOT** recommended that you use the browser console.
 
-You can toggle the terminal window in VS Code with the following keyboard shortcut:
-
-- `[ctrl + j]` on Windows
-- `[cmd + j]` on Mac
+> 💡 You can toggle the terminal window in VS Code with the following keyboard shortcut:
+>
+> - `[ctrl + j]` on Windows
+> - `[cmd + j]` on Mac
 
 This will open an instance of the terminal (Mac) or the PowerShell (Win).
 
 ## Type JS directly into the Node Env.
 
-- Type `node` in the terminal, and hit `enter`.
+- Type the following in the terminal, and hit `enter`.
 
-This will turn that terminal into a Node environment for you to play with.
+```bash
+node __2-workshop/exercise-3.js
+```
 
-You can type JavaScript in the same way I did while using the web browser console.
-
-You can also copy/paste your code from your file into the node environment.
-
-### Exit the Node Environment
-
-To exit/quit Node and get back to the terminal, do `[ctrl + c]` twice.
-
-<img src="./__1-lecture/assets/demo_node.gif" alt="node demo" />
+This will execute all of the code in the `exercise-3.js` file.
 
 ---
 
@@ -140,6 +134,12 @@ This exercise contains 5 questions (6.1 to 6.5) that all start with _Write a loo
 - Open [exercise-6.4.js](__2-workshop/exercise-6.4.js) file.
 - Open [exercise-6.5.js](__2-workshop/exercise-6.5.js) file.
 
+---
+
+<center>🟡 - Minimally complete workshop (75%) - 🟡</center>
+
+---
+
 ### Exercise 7
 
 Life in the army is regimented!
@@ -147,12 +147,6 @@ Life in the army is regimented!
 Write a loop that will output every hour of the day (0 to 23) and determine whether it is time to sleep, eat or train.
 
 - Open [exercise-7.js](__2-workshop/exercise-7.js) file.
-
----
-
-<center>🟡 - Minimally complete workshop (75%) - 🟡</center>
-
----
 
 ### Exercise 8
 
