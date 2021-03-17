@@ -1,4 +1,4 @@
-const exercise13 = require("../../..//__2-workshop//exercise-13");
+const exercise13 = require("../2-workshop/exercise-13");
 
 test("Exercise 13", () => {
   exercise13();

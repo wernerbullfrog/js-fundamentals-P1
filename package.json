@@ -23,7 +23,7 @@
   "jest": {
     "setupFilesAfterEnv": [
       "jest-expect-message",
-      "<rootDir>/__1-lecture/assets/__tests__/__setupTests.js"
+      "<rootDir>/__tests__/__setupTests.js"
     ],
     "verbose": true,
     "clearMocks": true

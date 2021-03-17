@@ -50,8 +50,7 @@ let data = [0, [], [], [1, 2, 3, [4]]];
 
 ```js
 // Given
-let person = { name: 'Bob', age: 23 };
-let name = 'John';
+let person = { name: "Bob", age: 23 };
 ```
 
 What is the value of the following expressions?
@@ -59,19 +58,3 @@ What is the value of the following expressions?
 1. person.name
 2. person['name']
 3. person[name]
-
----
-
-## Exercise 5
-
-```js
-// Given
-let person = { name: 'Bob', age: 23 };
-let key = 'name';
-```
-
-What is the value of the following expressions:
-
-1. person.key
-2. person['key']
-3. person[key]

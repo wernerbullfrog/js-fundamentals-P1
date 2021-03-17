@@ -1,4 +1,4 @@
-const exercise3 = require("../../..//__2-workshop//exercise-3");
+const exercise3 = require("../2-workshop/exercise-3");
 
 // https://devhints.io/jest
 

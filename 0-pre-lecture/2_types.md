@@ -1,6 +1,6 @@
 # Fundamentals: JavaScript Types
 
-There are 6 basic types in JavaScript.
+There are 6 basic value types in JavaScript. We can use these types to create just about anything.
 
 - Booleans
 - Numbers
@@ -8,8 +8,6 @@ There are 6 basic types in JavaScript.
 - Strings
 - Arrays
 - Objects
-
----
 
 ## Booleans
 
@@ -19,8 +17,6 @@ Boolean values are either `true` or `false`. (written as such without any quotat
 true;
 false;
 ```
-
----
 
 ## Numbers
 
@@ -33,8 +29,6 @@ Numbers are exactly what you would expect them to be: numeric values.
   - `2.998e8`
 - Calculations with integers will always be precise, but this is not quite true for fractional numbers.
 
----
-
 ## Empty values
 
 There are two special values, written `null` and `undefined`, that are used to denote the absence of a meaningful value.
@@ -42,8 +36,6 @@ There are two special values, written `null` and `undefined`, that are used to d
 They are themselves values, but they carry no information.
 
 > "The difference in meaning between `undefined` and `null` is an accident of JavaScript’s design, and it doesn’t matter most of the time. In cases where you actually have to concern yourself with these values, I recommend treating them as mostly interchangeable." (Marijn Haverbeke, [Eloquent JavaScript](https://eloquentjavascript.net/01_values.html))
-
----
 
 ## Strings
 
@@ -82,8 +74,6 @@ let text = introduction + " " + example;
 console.log(text);
 ```
 
----
-
 ## Arrays
 
 - An array contains multiple values, of pretty much any type.
@@ -96,38 +86,32 @@ console.log(text);
 ["bacon", undefined, 900, true];
 ```
 
----
-
 ### Accessing the values in an array
 
 We reference the element of an array by its position (index) in the array.
 
-⚠️⚠️ Indexing starts at 0 ⚠️⚠️
+Here is an array called `myFruit`.
 
 ```js
-// Example 1 - Given this array
-let anArrayOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let myFruit = ["apple", "orange", "mango", "banana"];
 ```
 
-1. `anArrayOfNumbers[0]` is `1`
-2. `anArrayOfNumbers[5]` is `6`
-3. `anArrayOfNumbers[9]` is `10`
-4. `anArrayOfNumbers[10]` is `undefined`
+In order to specify the index, we add square brackets to the array name and place the numerical index value in the brackets.
 
----
+**Why do index values start at 0, and not 1?** The name of the array is actually just a _pointer_, a reference to the location in memory that contains the values of the array. We use the index value as a reference of the _distance_ it is from the pointer in memory. Logically, the first element of an array is located 0 elements away from the pointer. Most programming languages, including JavaScript, use this terminology.
 
-```js
-// Example 2 - Given this array
-let anArray = ["bacon", undefined, 900, true];
-```
+> ⚠️Indexing starts at 0
 
-1. How do we access the value `900`?
-2. How do we access the value `true`?
+1. The value of `myFruit[0]` is "apple".
+1. The value of `myFruit[1]` is "orange".
+1. The value of `myFruit[2]` is "mango".
+1. The value of `myFruit[3]` is "banana".
 
-Arrays can be nested in arrays. Arrays can contain arrays that contain arrays that contain arrays that... _you get the idea_
+Arrays can be also be nested inside other arrays. Arrays can contain arrays that contain arrays that contain arrays that... _you get the idea_
+
+Here is an array of arrays.
 
 ```js
-// Example 3 - Given this array
 let table = [
   [1, 2, 3, 4, 5, 6],
   [7, 8, 9, 10, 11, 12],
@@ -138,14 +122,12 @@ let table = [
 ];
 ```
 
-What is the value of the following?
+In order to retrieve a value in a nested array, we can chain our square brackets to zero in on the required value. For example, the _location_ of the value 10 in the `table` is retrieved by writing `table[1][3]`.
 
-1. What is the value of `table[0][0]`?
-2. What is the value of `table[5][5]`?
-3. What is the value of `table[2][3]`?
-4. How would we access the value `27`?
+Let's break that down.
 
----
+- `table[1]` is equal to `[7, 8, 9, 10, 11, 12]`
+- `table[1][3]` will get us the value located at index 3 of `table[1]`.
 
 ## Objects
 
@@ -161,23 +143,31 @@ This object has 3 properties.
 
 ### Accessing values in objects
 
-Values in objects can be accessed with
+Values in objects can be referenced with either dot notation or bracket notation. _TODO: EXPLAIN, ELABORATE._
 
-- dot notation
-- bracket notation
+#### dot notation
+
+Here is an object named `person`. It is assigned the key/value pairs of `name: "Bob"` and `age: 23`.
 
 ```js
-// Example
 let person = { name: "Bob", age: 23 };
-const otherPerson = { name: "Joe", age: 31, height: "170cm" };
 ```
 
-- `person.name` is 'Bob'
-- `person['name']` is 'Bob'
-- `otherPerson.age` is 31
-- `otherPerson['age']` is 31
+When we want to reference any of those values, we can use dot notation. If we wanted to retrieve the value "Bob" from the object, we would write `person.name`. `person` refers, points to the location in memory of the object, and `name` points to the location in the object of the value "Bob".
 
----
+- `person` references the entire object `{ name: "Bob", age: 23 }`
+- `person.name` references the value 'Bob'
+- `person.age` references the value 23
+
+#### bracket notation
+
+Bracket notation is similar to dot notation, but instead of using a dot to provide the key of the value, we provide the key as a **string** inside of square brackets.
+
+- `person` references the entire object `{ name: "Bob", age: 23 }`
+- `person['name']` references the value 'Bob'
+- `person['age']` references the value 23
+
+Both dot notation and bracket notation are equivalent and you may use them intercheangably most of the time.
 
 ## Truthy and Falsy
 
@@ -201,8 +191,6 @@ EVERYTHING else is _truthy_. Everything else.
 - `function() {}` (an empty function) _more on functions in a bit_
 
 For more details, you can check out this [Sitepoint page](https://www.sitepoint.com/javascript-truthy-falsy/)
-
----
 
 ## Exceptions, special cases and just-plain-annoying side-effects
 
