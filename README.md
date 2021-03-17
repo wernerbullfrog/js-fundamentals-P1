@@ -68,6 +68,14 @@ In this workshop, there will be a reminder to do this at the end of every exerci
 
 ## ⚡ Exercises
 
+### Exercise 2
+
+_This a series of code jumble questions. Answer directly in the [exercise-2.md](__2-workshop/exercise-2.md) file._
+
+There is no automated testing for this file.
+
+---
+
 For exercises 3 to 13, you should only write the needed code to solve the exercise between the provided lines.
 
 ```js
