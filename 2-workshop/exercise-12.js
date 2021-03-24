@@ -1,5 +1,3 @@
-const exercise13 = require("./exercise-13");
-
 function exercise12() {
   // Exercise 12
   //
