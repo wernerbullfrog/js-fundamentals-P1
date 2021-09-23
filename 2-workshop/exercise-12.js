@@ -15,6 +15,11 @@ function exercise12() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for(i = 0; i < 200; i++) {
+  if (i%i++ === 0 && i%i === 0 && i%1 ===0){
+      console.log(i)
+    } 
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -24,8 +29,9 @@ function exercise12() {
   //
   //
 }
-
+exercise12()
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-12
+let value =
 
 module.exports = exercise12;
