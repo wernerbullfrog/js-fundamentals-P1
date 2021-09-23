@@ -24,12 +24,12 @@ function exercise7() {
   // Write code between the lines (below)
   // -----------------------------------------------------------------
   for(i = 0; i < 24; i++){
-    if(i > 22 || i < 5) {
-      console.log(`it's ${i}h. Time to Sleep!`)
+    if(i >= 22 || i <= 5) {
+      console.log(`It's ${i}h. Time to sleep!`)
     } else if (i === 6 || i=== 12 || i === 18) {
-      console.log(`it's ${i}h. Time to eat!`)
+      console.log(`It's ${i}h. Time to eat!`)
     } else {
-      console.log(`it's ${i}h. Time to train!`)
+      console.log(`It's ${i}h. Time to train!`)
     }
   }
   // -----------------------------------------------------------------
