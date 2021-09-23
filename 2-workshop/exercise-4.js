@@ -10,6 +10,7 @@ function exercise4() {
   // Edit only the code between the lines (below)
   // -----------------------------------------------------------------
   for (let number = 0; number < 12; number++) {
+    let square = number*number;
     console.log(square);
   }
   // -----------------------------------------------------------------
@@ -21,7 +22,7 @@ function exercise4() {
   //
   //
 }
-
+exercise4()
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-4
 
