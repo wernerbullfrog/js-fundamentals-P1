@@ -15,6 +15,8 @@ function exercise12() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  
+  // This was as close as I got to finding the answer i know it's not complete
   for(i = 0; i < 200; i++) {
   if (i%i++ === 0 && i%i === 0 && i%1 ===0){
       console.log(i)
